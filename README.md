@@ -48,7 +48,7 @@ SI:localuser:your_user_name
 Common external `xhost` mods to achieve X server access are laid below, though take note actively using these commands is typically unsafe:
 
 - `xhost + `: grants access to anyone, the unsafest option of all
-- `xhost +local:root`: grants access to any local connections. I could not figure the `root` part
+- `xhost +local:root`: grants access to any local connections.
 - `xhost +SI:localuser:root`: grants acces to the root user of your machine. Though I cannot make any promise, it looks way safer than the above
 - `xhost +SI:localuser:your_user_name`: grants acces to current user of your machine. This option is enabled by default
 
