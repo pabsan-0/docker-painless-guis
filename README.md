@@ -93,8 +93,8 @@ By default, Ubuntu 20.04 gives each non-root user an ID starting at 1000. If you
 Build and run the default `docker compose run guitest`, which is passing all run arguments seen above including the `$XAUTHORITY` token as a volume plus an env variable telling its location. You'll log in as root by default: 
 
 - As `root`: We cannot run `firefox` because there is a XAUTHORITY in place for an user other than `root` and the access to the xserver is limited by the `firefox` application. You can run `nautilus`, though, which has no `root` `$XAUTHORITY` restrictions.
-- As `gumby`: Switching to an user `su gumby` with the same user id than our host's user (first user in ubuntu defaults to 1000) does allow `firefox` to run. 
-- As `gumby2`: Switching to a different user `su gumby2` with a different user id will forbid us from using the token at `$XAUTHORITY` and no GUI will be displayed. 
+- As `gumby`: Switching to an user `su gumby` with the same user id than our host's user (first user in ubuntu defaults to 1000) does allow `firefox` to run, as well as nautilus.
+- As `gumby2`: Switching to a different user `su gumby2` with a different user id will forbid us from using the token at `$XAUTHORITY` and no GUI will be displayed for neither application.
 
 
 ### Default xhost +SI:localuser:user
