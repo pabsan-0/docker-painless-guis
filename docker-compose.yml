@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+    guitest:
+        image: guitest
+        build: .
+        container_name: guitest_container
+        tty: true
+        stdin_open: true
+        privileged: true
+        network_mode: host
+        volumes:
+            - /tmp/.X11-unix:/tmp/.X11-unix:rw
+        environment:
+            - QT_X11_NO_MITSHM=1
+            - DISPLAY=$DISPLAY
+            - XAUTHORITY=$XAUTHORITY
