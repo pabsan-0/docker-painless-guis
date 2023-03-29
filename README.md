@@ -168,49 +168,49 @@ Generated with [tablesgenerator.com](https://www.tablesgenerator.com/html_tables
     <td class="tg-0pky" rowspan="2">root</td>
     <td class="tg-0pky" rowspan="2">0</td>
     <td class="tg-0pky">firefox</td>
-    <td class="tg-0lax">No</td>
-    <td class="tg-0lax">No</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">✖</td>
+    <td class="tg-0lax">✖</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
   </tr>
   <tr>
     <td class="tg-0pky">nautilus</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">No</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✖</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="2">gumby</td>
     <td class="tg-0pky" rowspan="2">1000</td>
     <td class="tg-0pky">firefox</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
   </tr>
   <tr>
     <td class="tg-0pky">nautilus</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">Yes</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="2">gumby2</td>
     <td class="tg-0pky" rowspan="2">1001</td>
     <td class="tg-0pky">firefox</td>
-    <td class="tg-0lax">No</td>
-    <td class="tg-0lax">No</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">✖</td>
+    <td class="tg-0lax">✖</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✖</td>
   </tr>
   <tr>
     <td class="tg-0pky">nautilus</td>
-    <td class="tg-0lax">No</td>
-    <td class="tg-0lax">No</td>
-    <td class="tg-0lax">Yes</td>
-    <td class="tg-0lax">No</td>
+    <td class="tg-0lax">✖</td>
+    <td class="tg-0lax">✖</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✖</td>
   </tr>
 </tbody>
 </table>
