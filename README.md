@@ -1,20 +1,9 @@
-# Painlessly runing GUIs inside Docker containers
+# Painlessly running GUIs inside Docker containers
 
-A sample on how to run docker containers that can display GUI elements through the host's X server.\
-
-![image](.fig/drake.png)
-
-
-<!-- ![image](.fig/drake.png  | width=100) -->
-
-
-
-## Quickstart
-
-In order to run a minimal sample without external commands or `xhost` safety concerns:
+A sample on how to run docker containers that can display GUI elements without external commands or `xhost` safety concerns:
 
 ```
-git clone https://gist.github.com/pabsan-0/1876d4c052291e1327457e322b7a0fa3 docker-guitest
+git clone https://github.com/pabsan-0/docker-painless-guis docker-guitest
 cd docker-guitest
 
 docker compose build
@@ -24,6 +13,10 @@ docker compose run guitest
 Once inside of the container, run the following:
 - `firefox`: should not run if you're root, but simply do `su gumby` and try again as user
 - `nautilus`: should run out of the box as either user `root` or `gumby`.
+
+<br>
+<img src=".fig/drake.png" width="500" />
+<br>
 
 For more details, continue reading. Else, just copy the templates and continue your proj.
 
@@ -151,7 +144,9 @@ SI:localuser:your_user_name
 Revert to default by running `xhost -SI:localuser:root`.
 
 
-## Here's a truth table with a summary of the above
+## Example summary
+
+Here's a truth table with a summary of the above
 
 Generated with [tablesgenerator.com](https://www.tablesgenerator.com/html_tables#)
 
