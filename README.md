@@ -11,6 +11,7 @@ docker compose run guitest
 ```
 
 Once inside of the container, run the following:
+
 - `firefox`: should not run if you're root, but simply do `su gumby` and try again as user
 - `nautilus`: should run out of the box as either user `root` or `gumby`.
 
