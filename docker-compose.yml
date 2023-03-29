@@ -7,11 +7,23 @@ services:
         container_name: guitest_container
         tty: true
         stdin_open: true
-        privileged: true
-        network_mode: host
+        volumes:
+            - /tmp/.X11-unix:/tmp/.X11-unix:rw
+            - $XAUTHORITY:$XAUTHORITY
+        environment:
+            - QT_X11_NO_MITSHM=1
+            - DISPLAY=$DISPLAY
+            - XAUTHORITY=$XAUTHORITY
+
+
+    guitest_noxauth:
+        image: guitest
+        build: .
+        container_name: guitest_container
+        tty: true
+        stdin_open: true
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix:rw
         environment:
             - QT_X11_NO_MITSHM=1
             - DISPLAY=$DISPLAY
-            - XAUTHORITY=$XAUTHORITY
